@@ -1,1 +1,6 @@
-site_name: My Docs
+site_name: 金比白的 Wiki
+repo_url: https://github.com/bibaijin/wiki
+
+pages:
+  - 首页: index.md
+  - 关于: about.md
