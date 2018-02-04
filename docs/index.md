@@ -8,6 +8,13 @@ $ cd my-dotfiles
 $ ./bootstrap.sh
 ```
 
+## mkdocs
+
+```
+mkdocs serve  # 本地调试
+mkdocs gh-deploy  # 部署到 GitHub Pages
+```
+
 ## GoldenDict
 
 - [段注說文解字](http://download.huzheng.org/zh_CN/)
