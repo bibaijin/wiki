@@ -82,6 +82,8 @@
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#_1">首页</a></li>
             <li><a href="#dotfiles">dotfiles</a></li>
+            <li><a href="#python">Python</a></li>
+            <li><a href="#mkdocs">mkdocs</a></li>
             <li><a href="#goldendict">GoldenDict</a></li>
     </ul>
 </div></div>
@@ -94,7 +96,22 @@ $ cd my-dotfiles
 $ ./bootstrap.sh
 </code></pre>
 
+<h2 id="python">Python</h2>
+<pre><code>pacman -S python python-pip python-virtualenv
+virtualenv mypy
+</code></pre>
+
+<h2 id="mkdocs">mkdocs</h2>
+<pre><code>source mypy/bin/activate.fish
+pip install mkdocs  # 安装 mkdocs
+mkdocs serve  # 本地调试
+mkdocs gh-deploy  # 部署到 GitHub Pages
+</code></pre>
+
 <h2 id="goldendict">GoldenDict</h2>
+<pre><code>pacman -S goldendict
+</code></pre>
+
 <ul>
 <li><a href="http://download.huzheng.org/zh_CN/">段注說文解字</a></li>
 <li><a href="http://download.huzheng.org/zh_CN/">康熙字典</a></li>
@@ -186,5 +203,5 @@ $ ./bootstrap.sh
 
 <!--
 MkDocs version : 0.17.2
-Build Date UTC : 2018-02-04 14:28:51
+Build Date UTC : 2018-02-04 14:35:27
 -->
