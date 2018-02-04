@@ -8,14 +8,27 @@ $ cd my-dotfiles
 $ ./bootstrap.sh
 ```
 
+## Python
+
+```
+pacman -S python python-pip python-virtualenv
+virtualenv mypy
+```
+
 ## mkdocs
 
 ```
+source mypy/bin/activate.fish
+pip install mkdocs  # 安装 mkdocs
 mkdocs serve  # 本地调试
 mkdocs gh-deploy  # 部署到 GitHub Pages
 ```
 
 ## GoldenDict
+
+```
+pacman -S goldendict
+```
 
 - [段注說文解字](http://download.huzheng.org/zh_CN/)
 - [康熙字典](http://download.huzheng.org/zh_CN/)
