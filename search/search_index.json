@@ -2,23 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "Welcome to MkDocs\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCommands\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nProject layout\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
+            "text": "\u9996\u9875\n\n\ndotfiles\n\n\n$ git clone git@git.ustclug.org:bibaijin/my-dotfiles.git\n$ cd my-dotfiles\n$ ./bootstrap.sh\n\n\n\n\nGoldenDict\n\n\n\n\n\u6bb5\u6ce8\u8aaa\u6587\u89e3\u5b57\n\n\n\u5eb7\u7199\u5b57\u5178\n\n\n\u6717\u9053\u82f1\u6c49\u5b57\u5178\n\n\n\u6717\u9053\u6c49\u82f1\u5b57\u5178\n\n\nLongman Pronunciation Dictionary\n (\u5bc6\u7801: 2yvy)\n\n\nCEDICT \u6c49\u82f1\u8f9e\u5178\n\n\nDrEye4in1 \u8bcd\u5178\n\n\n\u725b\u6d25\u73b0\u4ee3\u82f1\u6c49\u53cc\u89e3\u5b57\u5178",
             "title": "\u9996\u9875"
         },
         {
-            "location": "/#welcome-to-mkdocs",
-            "text": "For full documentation visit  mkdocs.org .",
-            "title": "Welcome to MkDocs"
+            "location": "/#_1",
+            "text": "",
+            "title": "\u9996\u9875"
         },
         {
-            "location": "/#commands",
-            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
-            "title": "Commands"
+            "location": "/#dotfiles",
+            "text": "$ git clone git@git.ustclug.org:bibaijin/my-dotfiles.git\n$ cd my-dotfiles\n$ ./bootstrap.sh",
+            "title": "dotfiles"
         },
         {
-            "location": "/#project-layout",
-            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.",
-            "title": "Project layout"
+            "location": "/#goldendict",
+            "text": "\u6bb5\u6ce8\u8aaa\u6587\u89e3\u5b57  \u5eb7\u7199\u5b57\u5178  \u6717\u9053\u82f1\u6c49\u5b57\u5178  \u6717\u9053\u6c49\u82f1\u5b57\u5178  Longman Pronunciation Dictionary  (\u5bc6\u7801: 2yvy)  CEDICT \u6c49\u82f1\u8f9e\u5178  DrEye4in1 \u8bcd\u5178  \u725b\u6d25\u73b0\u4ee3\u82f1\u6c49\u53cc\u89e3\u5b57\u5178",
+            "title": "GoldenDict"
         },
         {
             "location": "/about/",
