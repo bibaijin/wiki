@@ -1,5 +1,6 @@
 site_name: 金比白的 Wiki
-repo_url: https://github.com/bibaijin/wiki
+repo_url: https://github.com/bibaijin/wiki/
+site_url: https://bibaijin.github.io/wiki/
 
 pages:
   - 首页: index.md
